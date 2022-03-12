@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0px;
+  padding: 2px;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  text-transform: uppercase;
+}
+body {
+  min-height: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    230deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(128, 16, 16, 1) 34%,
+    rgba(12, 30, 120, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  margin-top: 1rem;
+  padding-inline: 2px;
+  display: flex;
+  justify-content: space-around;
+}
+.links {
+  text-shadow: 4px 2px 3px rgba(0, 108, 110, 1);
+  color: white;
+  text-decoration: none;
+  font-size: 200%;
+  font-weight: 900;
+  transition: all 1s;
+}
+.links:hover {
+  font-size: 2.25rem;
+}
+
+.what {
+  padding-inline: 2px;
+  margin-top: 4rem;
+}
+
+.what h3 {
+  font-size: 2rem;
+}
+.what p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.what a {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+what a:hover {
+  font-size: 2.25rem;
+}
+
+.why {
+  margin-bottom: 2rem;
+}
+.about {
+  margin-bottom: 2rem;
+}
+
+.about button {
+  margin-top: 10px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.footer {
+  background-color: black;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.email {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+/* presets */
+
+.section {
+  padding-inline: 2px;
+
+  margin-top: 4rem;
+}
+.question {
+  font-size: 2rem;
+}
+
+.answer {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+/* responsive */
+@media screen and (min-width: 480px) {
+  .links {
+    color: white;
+    text-decoration: none;
+    font-size: 250%;
+    font-weight: 900;
+  }
+  .links:hover {
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .links {
+    color: white;
+    text-decoration: none;
+    font-size: 3.25rem;
+    font-weight: 900;
+  }
+  .links:hover {
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .links {
+    color: white;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  .links:hover {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (min-width: 912px) {
+  .links {
+    color: white;
+    text-decoration: none;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  .links:hover {
+    font-size: 2.25rem;
+  }
+}
