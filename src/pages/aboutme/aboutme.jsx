@@ -1,33 +1,13 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useState } from "react";
 import "./aboutme.css";
 
 function Aboutme() {
   const [btn, setBtn] = useState(false);
 
-  useEffect(() => {
-    axios
-      .get(
-        "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
-        {
-          headers: {
-            "X-CMC_PRO_API_KEY": "bfba5385-d8f8-4679-8786-4526300cd240",
-            "Content-Type": "application/json",
-          },
-        }
-      )
-      .then((res) => {
-        console.log(res.data);
-      })
-      .catch((err) => {
-        console.log(err.message);
-      });
-  }, []);
-
   return (
     <div>
       <div className="navbar">
-        <a href="/home.html" className="links">
+        <a href="/home" className="links">
           HOME
         </a>
         <a href="#about" className="links">
@@ -41,7 +21,6 @@ function Aboutme() {
         </a>
       </div>
       <div className="wrapper">
-        <div>hello</div>
         <div className="what section" id="what">
           <h3 className="question">what is the purpose of this website?</h3>
           <p>To give you regular price update for different crypto coins</p>
