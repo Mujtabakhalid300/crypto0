@@ -24,7 +24,7 @@ function Aboutme() {
         <div className="what section" id="what">
           <h3 className="question">what is the purpose of this website?</h3>
           <p>To give you regular price update for different crypto coins</p>
-          <a href="">check prices</a>
+          <a href="/home">check prices</a>
         </div>
         <div className="why section" id="why">
           <h3 className="question">why did I make this website?</h3>
